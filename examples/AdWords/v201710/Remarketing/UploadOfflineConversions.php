@@ -78,7 +78,7 @@ class UploadOfflineConversions {
 
     $feed = $result->getValue()[0];
     printf(
-        "Uploaded offline conversion value of %d for Google Click ID = "
+        "Uploaded offline conversion value of %f for Google Click ID = "
             . "'%s' to '%s'.\n",
         $feed->getConversionValue(),
         $feed->getGoogleClickId(),
